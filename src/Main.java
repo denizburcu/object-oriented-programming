@@ -39,7 +39,12 @@ public class Main {
         VipCustomer vipCustomer2 = new VipCustomer("burcu", 80.000, "burcu@gmail.com");
         System.out.println(vipCustomer2.getEmail());
         vipCustomer2.setEmail("aydın@gmail.com");
-        System.out.println(vipCustomer2.getEmail());
+        System.out.println();
+
+        Wall wall = new Wall();
+        wall.setHeight(-1);
+        wall.setWidth(4);
+        System.out.println(wall.getArea());
 
     }
 
