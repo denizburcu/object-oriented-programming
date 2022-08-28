@@ -70,6 +70,10 @@ public class Main {
         complexNumber.setImaginary(2);
         complexNumber.setReal(4);
         System.out.println(complexNumber.getReal());
+        complexNumber.add(new ComplexNumber(5, 6));
+        System.out.println(complexNumber.getReal());
+        complexNumber.add(6,4);
+        System.out.println(complexNumber.getReal());
 
     }
 
