@@ -29,5 +29,18 @@ public class Main {
 
         bankAccount.withdrawalBalance(2000);
         System.out.println(bankAccount.getBalance());
+
+
+
+        String name = "burcu";
+        VipCustomer vipCustomer = new VipCustomer();
+        vipCustomer.setEmail("deniz@gmail.com");
+        System.out.println(vipCustomer.getEmail());
+        VipCustomer vipCustomer2 = new VipCustomer("burcu", 80.000, "burcu@gmail.com");
+        System.out.println(vipCustomer2.getEmail());
+        vipCustomer2.setEmail("aydın@gmail.com");
+        System.out.println(vipCustomer2.getEmail());
+
     }
+
 }
