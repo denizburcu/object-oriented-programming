@@ -46,6 +46,23 @@ public class Main {
         wall.setWidth(4);
         System.out.println(wall.getArea());
 
+        Point firstPoint = new Point(2, 3);
+        System.out.println(firstPoint.distance());
+
+        Point secondPoint = new Point();
+        secondPoint.setX(3);
+        secondPoint.setY(3);
+        System.out.println(secondPoint.distance(1, 1));
+        System.out.println(firstPoint.distance(secondPoint));
+        System.out.println(firstPoint.distance(secondPoint.getX(), secondPoint.getY()));
+
+        Point thirdPoint = new Point();
+        thirdPoint.setY(4);
+        thirdPoint.setX(5);
+        System.out.println(thirdPoint.distance());
+        System.out.println(thirdPoint.distance(new Point(0, 0)));
+        System.out.println(thirdPoint.distance(0, 0));
+
     }
 
 }
