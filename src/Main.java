@@ -32,7 +32,6 @@ public class Main {
         System.out.println(bankAccount.getBalance());
 
 
-
         String name = "burcu";
         VipCustomer vipCustomer = new VipCustomer();
         vipCustomer.setEmail("deniz@gmail.com");
@@ -67,11 +66,10 @@ public class Main {
         Floor floor = new Floor(6, 5);
         System.out.println(floor.getArea());
 
-
-
-
-
-
+        ComplexNumber complexNumber = new ComplexNumber(9, 3);
+        complexNumber.setImaginary(2);
+        complexNumber.setReal(4);
+        System.out.println(complexNumber.getReal());
 
     }
 
