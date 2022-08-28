@@ -1,6 +1,7 @@
 import com.denizburcuaydin.bank.BankAccount;
 import com.denizburcuaydin.objects.Car;
 import com.denizburcuaydin.person.Person;
+import com.simplecalculator.Floor;
 
 public class Main {
 
@@ -62,6 +63,15 @@ public class Main {
         System.out.println(thirdPoint.distance());
         System.out.println(thirdPoint.distance(new Point(0, 0)));
         System.out.println(thirdPoint.distance(0, 0));
+
+        Floor floor = new Floor(6, 5);
+        System.out.println(floor.getArea());
+
+
+
+
+
+
 
     }
 
